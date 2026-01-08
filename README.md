@@ -31,6 +31,24 @@ Simply open `index.html` in any modern web browser to boot the simulator.
 3.  **Terminal**: Type `help` in the terminal for a list of commands.
 4.  **Settings**: Search for any setting (e.g., "Game Mode", "Face ID") in the universal settings app.
 
-## 📜 License
+## 📥 How to Download & Use
 
+### Option 1: Play the Simulator (Web Version)
+You don't need to install anything!
+1.  **Online**: Go to Settings > Pages in this repository to enable GitHub Pages, then play it via the provided URL.
+2.  **Offline**:
+    *   Click the green **<> Code** button above and select **Download ZIP**.
+    *   Extract the folder.
+    *   Double-click `index.html` to open the simulator in your browser.
+
+### Option 2: Build the Real OS (For Advanced Users)
+To generate the actual bootable `chroma_os.iso` for your computer:
+1.  Download the repository (ZIP) as above.
+2.  Navigate to the `source` folder.
+3.  Ensure you have **Docker Desktop** installed on Windows.
+4.  Double-click `build_iso.bat`.
+5.  Wait for the "Factory" to finish compiling. The real `chroma_os.iso` (approx 2GB) will appear in the output folder.
+6.  Burn this ISO to a USB stick using Rufus to boot real hardware.
+
+---
 (c) 2026 Antigravity Corp. All Rights Reserved.
