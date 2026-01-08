@@ -1,0 +1,8 @@
+This is a placeholder for the Chroma OS ISO file.
+
+To generate the actual bootable ISO (approx 2GB):
+1. Install Docker Desktop.
+2. Run the 'build_iso.bat' script located in the 'source' folder.
+3. The real 'chroma_os.iso' will be generated in the output directory.
+
+(This file is included to demonstrate the directory structure for the repository)
